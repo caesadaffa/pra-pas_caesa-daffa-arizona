@@ -6,7 +6,7 @@
         <th scope="col">#</th>
         <th scope="col">namaBuah</th>
         <th scope="col">jenisBuah</th>
-        <th scope="col">ukuran</th>
+        <th scope="col">Ukuran</th>
         <th scope="col">Expired</th>
         <th scope="col">Acttion</th>
       </tr>
