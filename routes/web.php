@@ -2,8 +2,10 @@
 
 use App\Http\Controllers\buahController;
 use App\Http\Controllers\pembeliController;
+use App\Http\Controllers\sayurController;
 use App\Models\buah;
 use App\Models\pembeli;
+use App\Models\sayur;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,3 +35,7 @@ Route::get('/buah/detail/{buah}', [buahController::class,'show']);
 Route::get('/pembeli/all', [pembeliController::class,'index']);
 
 Route::get('/pembeli/detail/{pembeli}', [pembeliController::class,'show']);
+
+Route::get('/sayur/all', [sayurController::class,'index']);
+
+Route::get('/sayur/detail/{sayurs}', [sayurController::class,'show']);
