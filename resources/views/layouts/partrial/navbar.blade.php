@@ -9,7 +9,9 @@
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/pembeli/all">Pembeli</a>
           </li>
-        
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/sayur/all">namaSayur</a>
+          </li>
     </div>
   </div>
 </nav>

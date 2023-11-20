@@ -26,10 +26,6 @@ class buahController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store($buah)
-    {
-    
-    }
 
     /**
      * Display the specified resource.
@@ -41,7 +37,7 @@ class buahController extends Controller
     {
         return view("pages.buah.detail", [
             "title"=>"buah",
-            'buah'=> buah::find($buah),
+            'buahs'=> buah::find($buah),
         ]);
     }
 
