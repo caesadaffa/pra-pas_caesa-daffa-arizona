@@ -7,7 +7,7 @@
           <th scope="col">#</th>
           <th scope="col">namaSayur</th>
           <th scope="col">warnaSayur</th>
-          <th scope="col">kualitasSayur</th>
+          
           <th scope="col">hargaSayur</th>
           <th scope="col">tanggalExpired</th>
         </tr>
@@ -18,7 +18,7 @@
             <td>{{ $key + 1 }}</td>
             <td>{{ $sayur->namaSayur}}</td>
             <td>{{ $sayur->warnaSayur}}</td>
-            <td>{{ $sayur->kualitasSayur}}</td>
+         
             <td>{{ $sayur->hargaSayur }}</td>
             <td>{{ $sayur->tanggalExpired }}</td>
             <th><a type="button" class="button1" href="/sayur/detail/{{ $sayur->id }}">detail</a></th>

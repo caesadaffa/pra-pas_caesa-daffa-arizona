@@ -1,11 +1,26 @@
 @extends('layouts.main')
-
-@section('container')
-    <h1>{{ $sayurs->namaSayur}}</h1>
-    <h1>{{ $sayurs->warnaSayur}}</h1>
-    <h1>{{ $sayurs->kualitasSayur}}</h1>
-    <h1>{{ $sayurs->hargaSayur}}</h1>
-    <h1>{{ $sayurs->tanggalExpired}}</h1>
-
-    <a class="button" href="/sayur/all">back</a>
-@endsection
+<table class="table">
+    <thead>
+        <tr>
+          
+          <th scope="col">namaSayur</th>
+          <th scope="col">warnaSayur</th>
+          
+          <th scope="col">hargaSayur</th>
+          <th scope="col">tanggalExpired</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider">
+        
+          <tr>
+            
+            <td>{{ $sayurs->namaSayur}}</td>
+            <td>{{ $sayurs->warnaSayur}}</td>
+         
+            <td>{{ $sayurs->hargaSayur }}</td>
+            <td>{{ $sayurs->tanggalExpired }}</td>
+            
+          </tr>
+          
+        </tr>
+      </tbody>
